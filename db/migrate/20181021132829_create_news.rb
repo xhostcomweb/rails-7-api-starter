@@ -1,6 +1,6 @@
-class CreateNews < ActiveRecord::Migration[5.0]
+class CreateNews < ActiveRecord::Migration[7.0]
   def change
-    create_table :news do |t|
+    create_table :news, id: :uuid  do |t|
       t.string :title
       t.string :description
       t.string :content
@@ -9,3 +9,4 @@ class CreateNews < ActiveRecord::Migration[5.0]
     end
   end
 end
+

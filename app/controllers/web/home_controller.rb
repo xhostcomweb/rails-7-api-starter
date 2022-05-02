@@ -3,7 +3,7 @@
 module Web
   class HomeController < ApplicationController
     def index
-      render plain: 'Niklick!'
+      render plain: 'API Starter!'
     end
   end
 end

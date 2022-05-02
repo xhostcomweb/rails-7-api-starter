@@ -2,6 +2,8 @@
 
 Rails Versioned API solution template
 
+With UUIDs Primary/foreign keys
+
 * Version 3.1.0
 
 ## Table of Contents
